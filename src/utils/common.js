@@ -1,0 +1,1 @@
+export const isArray = (val) => toString.call(val) === '[object Array]'
