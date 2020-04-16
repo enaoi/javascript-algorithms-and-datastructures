@@ -11,8 +11,12 @@ const deepFlatten = arr => {
     return arr;
 }
 
+
 const bitfurcate = (arr, filter) => {
     arr.reduce((r, v, i) => {
         r[filter[i] ? 0 : 1].push(v)
     }, [[], []])
 }
+
+
+const bitfurcateBy = ()
