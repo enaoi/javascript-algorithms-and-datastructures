@@ -1,7 +1,7 @@
 # javascript-algorithms-and-datastructures
 
-📓learning algorithms and datastructures everyday
-
+📓learning algorithms and datastructures with javascript. practice at leetcode everday. 
+ 
 ## algorithms
 
 ### search
@@ -16,6 +16,8 @@
 
 ## data structures
 
+- [x] array
 - [x] tree
+
 
 ## leetcode

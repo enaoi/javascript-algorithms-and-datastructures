@@ -9,13 +9,13 @@
  */
 const bucketSort = (A, k, S) => {
     const buckets = Array.from({ length: k }, () => [])
-        // A中的数据放入桶中
+    // A中的数据放入桶中
     for (let i = 0; i < A.length; i++) {
         let digit = Math.floor(A[i] / S)
         buckets[digit].push(A[i])
     }
     // 对桶进行插入排序
     buckets.forEach(bucket => insert_sort(bucket))
-        // 从桶中取出数据
+    // 从桶中取出数据
     return [].concat(...buckets)
 }
