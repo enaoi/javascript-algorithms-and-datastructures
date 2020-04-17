@@ -2,39 +2,37 @@
 
 📓learning algorithms and datastructures with javascript. practice at leetcode everday.
 
-## algorithms
+## Algorithms
 
-### search
+### Search
 
-- [x] binary search 二分法查找
+- [x] [binary search 二分法查找](src/algorithms/1.binary_search.js)
 
-### sort
+### Comparison Sort
 
-- [x] bubble sort 冒泡排序
-- [x] insert sort 插入排序
-- [x] quick sort 快速排序
+- [x] [bubble sort 冒泡排序](src/algorithms/2.bubble_sort.js)
+- [x] [merge sort 合并排序](src/algorithms/3.merge_sort.js)
+- [x] [insert sort 插入排序](src/algorithms/4.insert_sort.js)
+- [x] [quick sort 快速排序](src/algorithms/5.quick_sort.js)
 
-## data structures
-
-- [x] array
-- [x] tree
-
-## leetcode
+## Data Structures
 
 ### Array
 
-[数组概览]('./docs/array.md')
+[数组概览](docs/array.md)
 
-1. 🌟[存在重复元素1](https://leetcode-cn.com/problems/contains-duplicate/)：利用`哈希表`插入和查找的时间复杂度均为 O(1)。[题解]('/array_contain_duplicate.js')
+- ⭐️[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)：利用`哈希表`插入和查找的时间复杂度均为 O(1)。[题解](src/leetcode/array_contain_duplicate.js)
+- ⭐️有序数组查找：参考 `二分法查找`
+- ⭐️ [两数之和](https://leetcode-cn.com/problems/two-sum/): `哈希表` [题解](src/leetcode/array_two_sum.js)
+- ⭐️ [两数之和之升序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)：`双指针` [题解](src/leetcode/array_two_sum_sorted.js)
+- ⭐️⭐️ 数组排序：参考 `快速排序`
+- ⭐️⭐️ [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)：`位操作` [题解](src/leetcode/array_single_numbers.js)
+- ⭐️⭐️⭐️ [两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)：待解决
 
-- [ ] 一个有序的数组进行查找操作？二分查找
-- [ ] 给你一个乱序数组，你怎么样排序
-- [ ] 数组遍历
-- [ ] 数组去重
-- [ ] 一个升序数组，求两个元素的和为一个指定数
-- [ ] 两个排序好的数组，怎么样找他的中位数
-- [ ] 一个有序的数组如何进行查找操作
-- [ ] 给你一个无序数字数组，里面是随机的书，并给出一个目标值，求这个数组的两个数，这个数的和等于目标值，要求这两个数并给出下标，你能想到最优的办法是什么吗（提示：快排，双指针）
-- [ ] 给一个无序的数组，让我分割成m组，这个m组里和最大的一组是所有可能的分割情况最小的（二分答案法）
-- [ ] 一个数组只有1和2，排序，1在前面，2在后面
-- [ ] 一个数组，有很多数字存在2次，只有一个数字寸一次，怎么样找出这个数字
+### 二叉树
+
+[二叉树概览](docs/tree.md)
+
+## 相关概念
+
+1. [位操作](docs/bitOperate.md)
