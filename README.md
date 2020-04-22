@@ -19,7 +19,7 @@
 
 ### Array
 
-[数组概览](docs/array.md)
+[📖数组概览](docs/array.md)
 
 - ⭐️[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)：利用`哈希表`插入和查找的时间复杂度均为 O(1)。[题解](src/leetcode/array_contain_duplicate.js)
 - ⭐️有序数组查找：参考 `二分法查找`
@@ -27,12 +27,18 @@
 - ⭐️ [两数之和之升序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)：`双指针` [题解](src/leetcode/array_two_sum_sorted.js)
 - ⭐️⭐️ 数组排序：参考 `快速排序`
 - ⭐️⭐️ [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)：`位操作` [题解](src/leetcode/array_single_numbers.js)
+- ⭐️⭐️ [数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/submissions/)：[题解](src/leetcode/array_single_numbers.js)
+- ⭐️⭐️ [至少其它数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)：[题解](src/leetcode/array_domainant_index.js)
 - ⭐️⭐️⭐️ [两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)：待解决
+
+二维数组
+
+- [对角线遍历](https://leetcode-cn.com/explore/learn/card/array-and-string/199/introduction-to-2d-array/774/)：[题解](src/leetcode/array_diagonal_order.js)
 
 ### 二叉树
 
-[二叉树概览](docs/tree.md)
+[📖二叉树概览](docs/tree.md)
 
 ## 相关概念
 
-1. [位操作](docs/bitOperate.md)
+1. [📖位操作](docs/bitOperate.md)
