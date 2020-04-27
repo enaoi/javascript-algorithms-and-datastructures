@@ -7,15 +7,11 @@
  *  
  *  对两段字符串都进行XOR操作。重点是 string.charCodeAt() 和 String.fromCharCode() api
  */
-var findTheDifference = function (s, t) {
-    let diff = 0;
-    for (let i = 0, l = t.length; i < l; i++) {
-        diff = diff ^ t.charCodeAt(i)
-        if (s[i]) {
-            diff = diff ^ s.charCodeAt(i)
-        }
+var findTheDifference = function(s, t) {
+    const last = t.length - 1;
+    let diff = t.charCodeAt(last);
+    for (let i = 0; i < last; i++) {
+        diff = diff ^ s.charCodeAt(i) ^ t.charCodeAt(i)
     }
-    return String.fromCharCode(diff)
+    return String.fromCharCode.call(null, diff)
 };
-
-

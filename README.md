@@ -35,6 +35,12 @@
 
 - [对角线遍历](https://leetcode-cn.com/explore/learn/card/array-and-string/199/introduction-to-2d-array/774/)：[题解](src/leetcode/array_diagonal_order.js)
 
+### 字符串
+
+[📖字符串概览](doc/string.md)
+
+- ⭐️ [找不同](https://leetcode-cn.com/problems/find-the-difference/): 对两段字符串都进行XOR操作。重点是 `string.charCodeAt()` 和 `String.fromCharCode()` 将字符转化为ACSII码后校验,再将ACSII码转化位字符输出。[题解](src/leetcode/string_find_the_difference.js)
+
 ### 二叉树
 
 [📖二叉树概览](docs/tree.md)

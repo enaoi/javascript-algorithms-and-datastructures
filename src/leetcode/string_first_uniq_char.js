@@ -5,10 +5,10 @@
  */
 
 /**
-* @param {string} s
-* @return {number}
-*/
-var firstUniqChar = function (s) {
+ * @param {string} s
+ * @return {number}
+ */
+var firstUniqChar = function(s) {
     const arr = s.split('')
     let map = new Map(),
         r = arr.length,
@@ -28,8 +28,7 @@ var firstUniqChar = function (s) {
 };
 
 
-let s1 = "leetcode"  //=> 0
+let s1 = "leetcode" //=> 0
 let s2 = "loveleetcode" // => 2
 
 console.log(firstUniqChar(s2))
-
