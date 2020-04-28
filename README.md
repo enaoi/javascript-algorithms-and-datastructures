@@ -1,23 +1,50 @@
 # javascript-algorithms-and-datastructures
 
-📓learning algorithms and datastructures with javascript. practice at leetcode everday. 
- 
-## algorithms
+📓learning algorithms and datastructures with javascript. practice at leetcode everday.
 
-### search
+## Algorithms
 
-- [x] binary search 二分法查找
+### Search
 
-### sort
+- [x] [binary search 二分法查找](src/algorithms/1.binary_search.js)
 
-- [x] bubble sort 冒泡排序
-- [x] insert sort 插入排序
-- [x] quick sort 快速排序
+### Comparison Sort
 
-## data structures
+- [x] [bubble sort 冒泡排序](src/algorithms/2.bubble_sort.js)
+- [x] [merge sort 合并排序](src/algorithms/3.merge_sort.js)
+- [x] [insert sort 插入排序](src/algorithms/4.insert_sort.js)
+- [x] [quick sort 快速排序](src/algorithms/5.quick_sort.js)
 
-- [x] array
-- [x] tree
+## Data Structures
 
+### Array
 
-## leetcode
+[📖数组概览](docs/array.md)
+
+- ⭐️[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)：利用`哈希表`插入和查找的时间复杂度均为 O(1)。[题解](src/leetcode/array_contain_duplicate.js)
+- ⭐️有序数组查找：参考 `二分法查找`
+- ⭐️ [两数之和](https://leetcode-cn.com/problems/two-sum/): `哈希表` [题解](src/leetcode/array_two_sum.js)
+- ⭐️ [两数之和之升序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)：`双指针` [题解](src/leetcode/array_two_sum_sorted.js)
+- ⭐️⭐️ 数组排序：参考 `快速排序`
+- ⭐️⭐️ [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)：`位操作` [题解](src/leetcode/array_single_numbers.js)
+- ⭐️⭐️ [数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/submissions/)：[题解](src/leetcode/array_single_numbers.js)
+- ⭐️⭐️ [至少其它数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)：[题解](src/leetcode/array_domainant_index.js)
+- ⭐️⭐️⭐️ [两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)：待解决
+
+二维数组
+
+- [对角线遍历](https://leetcode-cn.com/explore/learn/card/array-and-string/199/introduction-to-2d-array/774/)：[题解](src/leetcode/array_diagonal_order.js)
+
+### 字符串
+
+[📖字符串概览](doc/string.md)
+
+- ⭐️ [找不同](https://leetcode-cn.com/problems/find-the-difference/): 对两段字符串都进行XOR操作。重点是 `string.charCodeAt()` 和 `String.fromCharCode()` 将字符转化为ACSII码后校验,再将ACSII码转化位字符输出。[题解](src/leetcode/string_find_the_difference.js)
+
+### 二叉树
+
+[📖二叉树概览](docs/tree.md)
+
+## 相关概念
+
+1. [📖位操作](docs/bitOperate.md)
