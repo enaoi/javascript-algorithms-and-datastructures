@@ -40,6 +40,8 @@
 [📖字符串概览](doc/string.md)
 
 - ⭐️ [找不同](https://leetcode-cn.com/problems/find-the-difference/): 对两段字符串都进行XOR操作。重点是 `string.charCodeAt()` 和 `String.fromCharCode()` 将字符转化为ACSII码后校验,再将ACSII码转化位字符输出。[题解](src/leetcode/string_find_the_difference.js)
+- ⭐️⭐️ [二进制求和](https://leetcode-cn.com/problems/add-binary/): 一种是加法运算，进位初始化为curry = 0。一种是位操作：1. 不考虑curry直接进行XOR操作。2. `curry = (a&b)<<1` 3. 对1和2进行XOR，直到进位数组全部为0
+
 
 ### 二叉树
 
