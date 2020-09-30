@@ -1,5 +1,5 @@
 import assert from 'assert';
-import containsDuplicate from '../leetcode/array_contain_duplicate.js'
+import containsDuplicate from '@leetcode/array_contain_duplicate.js'
 
 describe("数组:", function() {
     describe("#存在重复元素:", function() {

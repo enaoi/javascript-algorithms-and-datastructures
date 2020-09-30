@@ -1,5 +1,5 @@
 import assert from 'assert';
-import binarySearch from '../src/algorithms/binary_search.js'
+import binarySearch from '@algorithms/binary_search.js'
 
 
 describe("二分法查找:", function() {

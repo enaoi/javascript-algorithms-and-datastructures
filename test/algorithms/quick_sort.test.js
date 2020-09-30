@@ -1,5 +1,5 @@
 import assert from 'assert'
-import quickSort from '../src/algorithms/quick_sort.js'
+import quickSort from '@algorithms/quick_sort.js'
 
 
 describe('快速排序：', function() {

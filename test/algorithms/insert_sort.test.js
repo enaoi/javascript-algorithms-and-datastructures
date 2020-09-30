@@ -1,5 +1,5 @@
 import assert from 'assert'
-import insertSort from '../src/algorithms/insert_sort.js'
+import insertSort from '@algorithms/insert_sort.js'
 
 
 describe('插入排序：', function() {

@@ -4,7 +4,7 @@
     "description": "📓learning algorithms and datastructures everyday",
     "main": "index.js",
     "scripts": {
-        "test": "mocha -r esm --reporter list test/*.test.js "
+        "test": "mocha -r esm --reporter list test/*/*.test.js "
     },
     "repository": {
         "type": "git",
@@ -24,5 +24,15 @@
         "assert": "^2.0.0",
         "esm": "^3.2.25",
         "mocha": "^7.1.1"
+    },
+    "_moduleAliases": {
+        "@algorithms": "src/algorithms",
+        "@data_structures": "src/data_structures",
+        "@leetcode": "src/leetcode",
+        "@/utils": "src/utils"
+    },
+    "dependencies": {
+        "eslint": "^7.5.0",
+        "module-alias": "^2.2.2"
     }
 }

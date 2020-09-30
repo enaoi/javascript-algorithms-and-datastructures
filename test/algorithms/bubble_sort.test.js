@@ -1,5 +1,5 @@
 import assert from 'assert'
-import bubbleSort from '../src/algorithms/bubble_sort.js'
+import bubbleSort from '@algorithms/bubble_sort.js'
 
 
 describe('冒泡排序：', function() {
