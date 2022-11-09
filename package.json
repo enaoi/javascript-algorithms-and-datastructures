@@ -23,7 +23,7 @@
         "@babel/preset-env": "^7.9.5",
         "assert": "^2.0.0",
         "esm": "^3.2.25",
-        "mocha": "^7.1.1"
+        "mocha": "^10.1.0"
     },
     "_moduleAliases": {
         "@algorithms": "src/algorithms",
